@@ -13,15 +13,15 @@ will likely change!
 
 ## Data Source
 
-Eventually the users, but for now - Human Connectome Project data available to be mounted on S3
+Eventually the users, but for now - Human Connectome Project data is available to be mounted on S3
 
 ## Engineering Challenge
 
-Going from the MRI to the .stl is computationally expensive (8h on a typical workstation) - it will need to be in a separate process for each brain. We will need to launch an instance separately for each brain
+Going from the MRI to the .stl is computationally expensive (8h on a typical workstation) - it will need to be in a separate process for each brain. I think it makes sense to launch an instance separately for each brain.
 
 Also, uploading and downloading large files through a web interface may be a challenge
 
-The MRI-stl process is largely solved (albeit inefficiently). In a previous hackathon project, I built a docker container to accomplish this (https://github.com/danjonpeterson/brain_printer). You could think of this project as scaling-up and making a public-facing interface to this container.
+The MRI-to-stl process is largely solved (albeit inefficiently and somewhat unreliably). In a previous hackathon project, I built a docker container to accomplish this (https://github.com/danjonpeterson/brain_printer). You could think of this project as scaling-up and making a public-facing interface to this process.
 
 ## Business Value
 
@@ -38,14 +38,15 @@ The application NEEDS to:
 - Accept a ~30MB MRI over the web 
 - Do the processing in a an EC2 instance launched for each user  
 - Serve a link to the two R/L ~8MB .stl files
-- Store user info in a redundant database across at least two nodes
+- Store user info in a database (SQLite)
 - Give some QA info - some way to visually inspect the result
-- Automatically delete files after some amount of time (a week?)
 - Handle 20 concurrent jobs in a stress-test with the HCP data
 
 ## Stretch Goals
 
 - Actually print a brain from a user (typical ~36h print time)
+- Automatically delete files after some amount of time (a week?)
 - Optimize mesh file size
+- Make the database redundant and fault-tolerant over multiple nodes
 - Speed up the core process (MRI -> .stl)
 - Take some billing and address info to manage the hand-off to 3D printing services
