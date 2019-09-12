@@ -4,7 +4,12 @@
 
 **To make it simple for people to get a 3D print of their brain, if they have an MRI scan**
 
-User story: As a user, I navigate to a website where I upload an MRI of my brain, and give my email address. A day later, I recieve an email with a link, which allows me to download two .stl files: for my right and left hemisphere. I can also see an image of what my brain looks like. After that, I can take the .stl files to my local makerspace, or use a 3D printing service (shapeways, xometry, etc)  to get a 3D print of my brain.
+Currently it takes a lot of technical knowlege to go from an MRI scan to the files needed for 3D printing (.stl). I'd like to make it so that anyone can do it.
+
+__User story__
+>As a user, I navigate to a website where I upload an MRI of my brain, and give my email address. A day later, I recieve an email with a link, which allows me to download two .stl files: for the right and left side of my brain. I can also see an image of what my brain looks like. After that, I can take the .stl files to my local makerspace, or use a 3D printing service (shapeways, xometry, etc) to get a 3D print of my brain.
+
+
 
 ## Tech Stack
 will likely change!
