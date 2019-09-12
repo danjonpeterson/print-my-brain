@@ -26,13 +26,13 @@ Eventually the users, but for now - Human Connectome Project data is available t
 
 ## Engineering Challenge
 
-Going from the MRI to the .stl is computationally expensive (8h on a typical workstation) - it will need to be in a separate process for each brain. I think it makes sense to launch an container separately for each brain. I can manage these containers with **kubernetes**.
+Going from the MRI to the .stl is computationally expensive (8h on a typical workstation). I think it makes sense to launch a container separately for each brain. I can manage these containers with **kubernetes**.
 
-The user data, information on where to find the associated files, and tracking info will be stored in a distributed **CockroachDB**
+The user data, information on where to find the associated files, and basic process info will be stored in a distributed **CockroachDB**
 
-Uploading and downloading large files (\~30MB MRI files, 16MB .stl files) through a web interface with many concurrent users may be a challenge. It may be neccessary to automatically delete the large files after a certain amount of time (a week?), but user info will be kept in the database.
+Uploading and downloading large files (\~30MB MRI files, 16MB .stl files) through a web interface with many concurrent users may be a challenge. It also may be neccessary to automatically delete the large files after a certain amount of time (a week?), but user info will be kept in the database.
 
-The MRI-to-stl process is largely solved (albeit inefficiently and somewhat unreliably). In a previous hackathon project, I built a docker container to accomplish this (https://github.com/danjonpeterson/brain_printer). You could think of this project as scaling-up and making a public-facing interface to this process.
+The MRI-to-stl process is mostly solved (albeit inefficiently and somewhat unreliably). In a previous hackathon project, I built a docker container to accomplish this (https://github.com/danjonpeterson/brain_printer). You could think of this project as scaling-up and making a public-facing interface to this process.
 
 For a "stress-test", I'm going to use publicly available MRI data from the Human Connectome Project, which is conveniently available to mount as an S3 bucket. I'd like to be able to handle at least 20 brains simultaneously, perhaps with a queue system if there are any backups.
 
