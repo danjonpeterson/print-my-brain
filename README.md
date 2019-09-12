@@ -10,7 +10,7 @@ __User story__
 >As a user, I navigate to a website where I upload an MRI of my brain, and give my email address. A day later, I recieve an email with a link, which allows me to download two .stl files: for the right and left side of my brain. I can also see an image of what my brain looks like. After that, I can take the .stl files to my local makerspace, or use a 3D printing service (shapeways, xometry, etc) to get a 3D print of my brain.
 
 QC image example:  
-![](https://camo.githubusercontent.com/119d9d7c250645e0a1beb743df6271a67fd1a201/68747470733a2f2f64616e6a6f6e7065746572736f6e2e6769746875622e696f2f736372617463682f72682e676966 =150x150)
+![](https://camo.githubusercontent.com/119d9d7c250645e0a1beb743df6271a67fd1a201/68747470733a2f2f64616e6a6f6e7065746572736f6e2e6769746875622e696f2f736372617463682f72682e676966)
 
 3D prints used for an outreach event (75% scale):  
 ![](https://depts.washington.edu/mbwc/content/news-img/413/img_0142.jpg)
