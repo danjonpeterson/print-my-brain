@@ -30,7 +30,7 @@ Going from the MRI to the .stl is computationally expensive (8h on a typical wor
 
 The user data, information on where to find the associated files, and basic process info will be stored in a distributed **CockroachDB**
 
-Uploading and downloading large files (\~30MB MRI files, 16MB .stl files) through a web interface with many concurrent users may be a challenge. It also may be neccessary to automatically delete the large files after a certain amount of time (a week?), but user info will be kept in the database.
+Uploading and downloading large files (\~30MB MRI files, 16MB .stl files) through **Flask** with many concurrent users may be a challenge. It also may be neccessary to automatically delete the large files after a certain amount of time (a week?), but user info will be kept in the database.
 
 The MRI-to-stl process is mostly solved (albeit inefficiently and somewhat unreliably). In a previous hackathon project, I built a docker container to accomplish this (https://github.com/danjonpeterson/brain_printer). You could think of this project as scaling-up and making a public-facing interface to this process.
 
