@@ -44,7 +44,8 @@ There are multiple avenues to monetization:
 
 - Charging the user directly  
 - Advertising and/or partnering with 3D printing services  
-- Contracting with research labs for [rewarding volunteers](https://www.thestar.com/calgary/2019/02/28/children-getting-models-of-their-brains-as-thank-you-gifts-for-helping-calgary-mri-study.html). (There are ~2700 active NIH research grants involving human brain MRIs)
+- Contracting with research labs for [rewarding volunteers](https://www.thestar.com/calgary/2019/02/28/children-getting-models-of-their-brains-as-thank-you-gifts-for-helping-calgary-mri-study.html)  
+(There are ~2700 active NIH research grants involving human brain MRIs)
 
 ## Minimum Viable Product
 
