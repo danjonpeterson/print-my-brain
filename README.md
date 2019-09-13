@@ -52,9 +52,9 @@ There are multiple avenues to monetization:
 The application NEEDS to:
 
 - Accept a ~30MB MRI over the web 
-- Do the processing in a an EC2 instance launched for each user  
+- Do the processing in a an container launched for each user  
 - Serve a link to the two R/L ~8MB .stl files
-- Store user info in a database (SQLite)
+- Store user info in a database (PostgreSQL)
 - Give some QA info - some way to visually inspect the result
 - Handle (at least) 20 concurrent jobs in a stress-test with the HCP data
 
