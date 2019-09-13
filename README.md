@@ -28,7 +28,7 @@ Eventually the users, but for now - Human Connectome Project data is available t
 
 Going from the MRI to the .stl is computationally expensive (8h on a typical workstation). I think it makes sense to launch a container separately for each brain. I can manage these containers with **kubernetes**.
 
-The user data, information on where to find the associated files, and basic process info will be stored in a distributed **CockroachDB**
+The user data, information on where to find the associated files, and basic process info will be stored in a **PostgreSQL** database.
 
 Uploading and downloading large files (\~30MB MRI files, 16MB .stl files) through **Flask** with many concurrent users may be a challenge. It also may be neccessary to automatically delete the large files after a certain amount of time (a week?), but user info will be kept in the database.
 
