@@ -65,5 +65,5 @@ The application NEEDS to:
 - Automatically delete files after some amount of time (a week?)
 - Optimize mesh file size
 - Speed up the core process (MRI -> .stl)
-- Add a link to get a quote and send stl directly to 3D printing services
+- Add a link to get a quote and send the .stl directly to 3D printing services
 - Take some address and billing info
