@@ -91,10 +91,17 @@ if [[ "$output" = "S3" ]]; then
 	aws configure set region us-west-2
 
 	if [["$testing"=="TRUE"]]; then
-		aws s3 cp s3://print-my-brain/output/user-djp-lh.gif s3://print-my-brain/output/user-${user}-lh.gif
-		aws s3 cp s3://print-my-brain/output/user-djp-lh.stl s3://print-my-brain/output/user-${user}-lh.stl
-		aws s3 cp s3://print-my-brain/output/user-djp-rh.gif s3://print-my-brain/output/user-${user}-rh.gif
-		aws s3 cp s3://print-my-brain/output/user-djp-rh.stl s3://print-my-brain/output/user-${user}-rh.stl
+
+		aws s3 cp s3://print-my-brain/output/user-djp-lh.gif $temp_dir/user-${user}-lh.gif
+		aws s3 cp s3://print-my-brain/output/user-djp-lh.stl $temp_dir/user-${user}-lh.stl
+		aws s3 cp s3://print-my-brain/output/user-djp-rh.gif $temp_dir/user-${user}-rh.gif
+		aws s3 cp s3://print-my-brain/output/user-djp-rh.stl $temp_dir/user-${user}-rh.stl
+
+		aws s3 cp $temp_dir/user-${user}-lh.gif s3://print-my-brain/output/user-${user}-lh.gif
+		aws s3 cp $temp_dir/user-${user}-lh.stl s3://print-my-brain/output/user-${user}-lh.stl
+		aws s3 cp $temp_dir/user-${user}-rh.gif s3://print-my-brain/output/user-${user}-rh.gif
+		aws s3 cp $temp_dir/user-${user}-rh.stl s3://print-my-brain/output/user-${user}-rh.stl
+		
 	elif [["$testing"=="FALSE"]]; then
 		aws s3 cp $output_dir/user-djp-lh.gif s3://print-my-brain/output/user-${user}-lh.gif
 		aws s3 cp $output_dir/user-djp-lh.stl s3://print-my-brain/output/user-${user}-lh.stl
