@@ -28,7 +28,7 @@ surf_dir=$input_dir/001/surf
 
 temp_dir=/tmp
 
-if [[ "$testing"="FALSE" ]]; then
+if [ "$testing" = "FALSE" ]; then
 
 	echo ==================
 	echo running freesurfer
@@ -77,20 +77,20 @@ if [[ "$testing"="FALSE" ]]; then
 fi
 
 
-if [[ "$output" = "S3" ]]; then
+if [ "$output" = "S3" ]; then
 
 	echo ===================================
 	echo       copying outputs to S3
 	echo ===================================
 
-	if [[ "$AWS_ACCESS_KEY_ID" = "" ]] || [[ "$AWS_SECRET_ACCESS_KEY" = "" ]]; then
+	if [ "$AWS_ACCESS_KEY_ID" = "" ] || [ "$AWS_SECRET_ACCESS_KEY" = "" ]; then
 		echo ERROR: missing AWS credentials
 		exit 1
 	fi
 
 	aws configure set region us-west-2
 
-	if [["$testing"=="TRUE"]]; then
+	if [ "$testing" = "TRUE" ]; then
 
 		aws s3 cp s3://print-my-brain/output/user-djp-lh.gif $temp_dir/user-${user}-lh.gif
 		aws s3 cp s3://print-my-brain/output/user-djp-lh.stl $temp_dir/user-${user}-lh.stl
@@ -101,8 +101,8 @@ if [[ "$output" = "S3" ]]; then
 		aws s3 cp $temp_dir/user-${user}-lh.stl s3://print-my-brain/output/user-${user}-lh.stl
 		aws s3 cp $temp_dir/user-${user}-rh.gif s3://print-my-brain/output/user-${user}-rh.gif
 		aws s3 cp $temp_dir/user-${user}-rh.stl s3://print-my-brain/output/user-${user}-rh.stl
-		
-	elif [["$testing"=="FALSE"]]; then
+
+	elif [ "$testing" = "FALSE" ]; then
 		aws s3 cp $output_dir/user-djp-lh.gif s3://print-my-brain/output/user-${user}-lh.gif
 		aws s3 cp $output_dir/user-djp-lh.stl s3://print-my-brain/output/user-${user}-lh.stl
 		aws s3 cp $output_dir/user-djp-rh.gif s3://print-my-brain/output/user-${user}-rh.gif
