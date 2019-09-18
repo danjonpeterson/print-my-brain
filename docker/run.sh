@@ -28,7 +28,7 @@ surf_dir=$input_dir/001/surf
 
 temp_dir=/tmp
 
-if [["$testing"=="FALSE"]]; then
+if [[ "$testing"="FALSE" ]]; then
 
 	echo ==================
 	echo running freesurfer
@@ -77,13 +77,13 @@ if [["$testing"=="FALSE"]]; then
 fi
 
 
-if [["$output"=="S3"]]; then
+if [[ "$output" = "S3" ]]; then
 
 	echo ===================================
 	echo       copying outputs to S3
 	echo ===================================
 
-	if [["$AWS_ACCESS_KEY_ID"==""]]||[["$AWS_SECRET_ACCESS_KEY"==""]]; then
+	if [[ "$AWS_ACCESS_KEY_ID" = "" ]] || [[ "$AWS_SECRET_ACCESS_KEY" = "" ]]; then
 		echo ERROR: missing AWS credentials
 		exit 1
 	fi
