@@ -12,7 +12,7 @@ while getopts u:tl OPT
  case "$OPT" in
    "u" ) user="$OPTARG";;
    "t" ) testing="TRUE";;
-   "l" ) output="LOCAL"
+   "l" ) output="LOCAL";;
     * )  usage_exit;;
  esac
 done;
@@ -62,8 +62,8 @@ if [["$testing"=="FALSE"]]; then
 	echo    making gif
 	echo ==================
 	
-	/brain_printer/pov2gif.sh $temp_dir/lh.pov $temp_dir/lh.gif
-	/brain_printer/pov2gif.sh $temp_dir/rh.pov $temp_dir/rh.gif
+	/print-my-brain/docker/pov2gif.sh $temp_dir/lh.pov $temp_dir/lh.gif
+	/print-my-brain/docker/pov2gif.sh $temp_dir/rh.pov $temp_dir/rh.gif
 
 	echo ===================================
 	echo copying outputs to output directory
@@ -88,10 +88,7 @@ if [["$output"=="S3"]]; then
 		exit 1
 	fi
 
-	echo output=json > ~/.aws/config
-	echo region=us-west-2 >> ~/.aws/config
-
-	aws configure
+	aws configure set region us-west-2
 
 	if [["$testing"=="TRUE"]]; then
 		aws s3 cp s3://print-my-brain/output/user-djp-lh.gif s3://print-my-brain/output/user-${user}-lh.gif
