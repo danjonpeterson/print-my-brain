@@ -1,5 +1,5 @@
 import boto3, botocore
-from config import S3_KEY, S3_SECRET, S3_BUCKET
+from config import S3_KEY, S3_SECRET, S3_BUCKET, BATCH_JOB_DEFINITION
 
 s3 = boto3.client(
    "s3",
@@ -7,26 +7,65 @@ s3 = boto3.client(
    aws_secret_access_key=S3_SECRET
 )
 
+batch = boto3.client(
+   "batch",
+   aws_access_key_id=S3_KEY,
+   aws_secret_access_key=S3_SECRET
+)
+
+def get_url_to_s3(filename):
+    """ resource: name of the file to download"""
+
+    print(filename)
+
+    url = s3.generate_presigned_url('get_object', Params = {'Bucket': 'print-my-brain', 'Key': filename}, ExpiresIn = 500)
+    return url
+
+
 def upload_file_to_s3(file, bucket_name, acl="public-read"):
 
-    try:
+    """
+    Docs: http://boto3.readthedocs.io/en/latest/guide/s3.html
+    """
 
+    file.filename="input/{}".format(file.filename)
+
+    try:
+        print("file",file)
+        print("bucket_name",bucket_name)
+        print("file.filename",file.filename)
         s3.upload_fileobj(
             file,
-            bucket_name,
+            "print-my-brain",
             file.filename,
             ExtraArgs={
-                "ACL": acl,
+#                "ACL": acl,
                 "ContentType": file.content_type
             }
         )
 
     except Exception as e:
-        # This is a catch all exception, edit this part to fit your needs.
         print("Something Happened: ", e)
         return e
 
-    return "{}{}".format(app.config["S3_LOCATION"], file.filename)
+    return "http://print-my-brain.s3.amazonaws.com/{}".format(file.filename)
+
+def submit_batch_job(username):
+
+    response = batch.submit_job(jobName=username,
+                            jobQueue='print-my-brain-job-queue',
+                            jobDefinition=BATCH_JOB_DEFINITION,
+                            containerOverrides={
+                                "environment": [ 
+                                    {"name": "BRAIN_PRINTER_USER", "value": username}
+                                ]
+                            })
+
+    print(response)
+    return response['jobId']
 
 
 
+#TODO: filename checking
+def allowed_file(filename):
+	return True
