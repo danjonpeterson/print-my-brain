@@ -16,10 +16,11 @@
     </head>
     <body>
         <header>
-            <h1>Pick a user name</h1>
         </header>
 
         {% block content %}
+        <h1>Pick a user name</h1>
+
         <form method="get" action="/get_file">
             <input type="text" name="username" placeholder="example user name: 'djp' ">
             <button type="submit" name="push">Submit</button>

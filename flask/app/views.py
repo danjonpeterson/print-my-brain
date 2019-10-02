@@ -1,5 +1,10 @@
-from flask import render_template
-from flask import request
+from flask import (
+	render_template,
+	request,
+	redirect,
+	url_for
+)
+
 from app import app
 
 from helpers import *
@@ -17,17 +22,19 @@ def get_file():
     message=''
 
     if request.method == 'POST':
-	    if "user_file" not in request.files:
-	        message="No user_file key in request.files"
 	
 	    file = request.files["user_file"]
-
-	    if file.filename == "":
-	        message="Please select a file"
 	
 	    if file and allowed_file(file.filename):
-	       	output = upload_file_to_s3(file, app.config["S3_BUCKET"])
-	        message=str(output)
+
+	        print("username:"+username)
+	        file.filename="user-{}.nii.gz".format(username)
+	        output = upload_file_to_s3(file, app.config["S3_BUCKET"])
+	        print("s3 upload:"+output)
+	        job_id=submit_batch_job(username)
+	        print("job id:"+job_id)
+
+	    return redirect(url_for('submit_job', username=username, job_id=job_id))
 
     return render_template(
         'get_file.html',
@@ -39,8 +46,8 @@ def get_file():
 def submit_job():
 
     username = request.args.get('username', '')
+    job_id = request.args.get('job_id', '')
 
-    job_id=submit_batch_job(username)
 
     return render_template(
         'submit_job.html',
@@ -74,6 +81,21 @@ def get_results():
 		lh_gif_url=lh_gif_url,
 		rh_gif_url=rh_gif_url
 	)
+
+@app.route('/check_if_done',methods=["GET","POST"])
+def check_if_done():
+	username=request.args.get('username', '')
+
+	if is_processing_complete(username):
+		return redirect(url_for('get_results', username=username))
+	else:
+		return render_template(
+			'check_if_done.html',
+			username=username
+			)
+
+
+
 
 
 

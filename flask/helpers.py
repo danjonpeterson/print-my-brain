@@ -64,6 +64,14 @@ def submit_batch_job(username):
     print(response)
     return response['jobId']
 
+def is_processing_complete(username):
+    try:
+        result=s3.head_object(Bucket='print-my-brain',Key='output/user-'+username+'-lh.stl')
+    except botocore.exceptions.ClientError as ex:
+        if ex.response['Error']['Code'] == '404':
+            return False
+    return True
+
 
 
 #TODO: filename checking
