@@ -2,6 +2,7 @@
 
 import argparse
 import boto3
+import botocore
 from boto3.s3.transfer import TransferConfig
 import tempfile
 import os, sys
@@ -12,7 +13,7 @@ parser = argparse.ArgumentParser(description='Simulate a print-my-brain user, fr
 parser.add_argument('--user', help='user name',default='random')
 args = parser.parse_args()
 
-print('setup HCP S3')
+print('INFO: setup HCP S3')
 
 f = open('/Users/danjonpeterson/insight/credentials/HCP_keys.txt')
 hcp_keys_text = f.readlines()
@@ -26,6 +27,13 @@ print('INFO: setup print-my-brain S3 (uses environment variables for credentials
 
 desination_client = boto3.client('s3')
 
+def is_new_subject(subject):
+    try:
+        result=desination_client.head_object(Bucket='print-my-brain',Key='input/user-hcp'+subject+'.nii.gz')
+    except botocore.exceptions.ClientError as ex:
+        if ex.response['Error']['Code'] == '404':
+            return True
+    return False
 
 def get_random_subject():
 	
@@ -33,8 +41,11 @@ def get_random_subject():
     	subject_list = f.read().splitlines()
 
     subject=random.choice(subject_list)
-    #TODO: check if we've done this one
-    return subject
+    if is_new_subject(subject):
+    	return subject
+    else:
+    	return get_random_subject()
+
 
 if args.user=='random':
 	args.user=get_random_subject()
