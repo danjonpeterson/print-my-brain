@@ -1,0 +1,618 @@
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:186141
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 24c65b48-696c-4b2d-9d10-7dabb3d05d2f.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:705341
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 2f35e797-ba91-4ef3-aba7-1e47189ae472.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:385450
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 5bbbb952-6460-4df2-9a5d-9eeefef19844.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:191033
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 08c6f643-57df-42a0-b1ff-e609c9b98757.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:826454
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 8c84b046-e2fc-490d-83d1-cb5d5aaecc2a.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:673455
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is c14a723e-d1a7-4795-bc99-74f2e65a7a00.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:130316
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 652da93b-a4c5-48ea-9ec7-2adc460e063f.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:158136
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is e20a6c6c-ef65-4a7a-badf-6ad692244f53.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:622236
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 922d4a15-8456-4dce-9efc-a8d5b7e5ebe8.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:978578
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 4c869143-515c-4846-84f5-54a03701cd0a.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:352132
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is f72747cd-d5dd-4687-a6bc-3aeb2acf68d4.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:559053
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 586a058e-7753-4710-9b8b-45282269a575.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:165840
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is eb87867b-114f-4184-b4be-59de55ec765c.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:168341
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is af519f27-d0f1-42c2-a02b-3ba4d34f9aa4.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:159340
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is f0c1dca8-2c02-403e-907a-c0840d4e7c0f.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:987983
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 50be2636-afbe-45b2-af6a-1de61d70a6e0.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:199655
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is ae8cd21b-9595-49c4-8651-77da8ed95745.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:316633
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is bb47b48f-d993-4ecf-be7d-bfa9c7469448.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:105923
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:627549
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 8b7ab305-b1ca-4b19-9356-67cee2a5eb4e.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:153025
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is e0975ea7-131f-4dcf-960b-d8710c76bcf0.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:687163
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 1089fd8a-94fd-45cd-8ede-67a9b3625437.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:475855
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 5f9a3b1b-34e7-4147-a7d7-9ca68c31adac.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:983773
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 283ccf34-9d47-4b06-976c-9ccf0ad09706.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:208226
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is fc3ff4e3-a8f0-496d-9015-fbea35788c14.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:497865
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 97e628cb-5950-44e7-ad5c-427fae4b3806.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:150726
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 793a106d-2c17-4ef0-b30b-63969193a90f.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:165234
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 54dfa505-6c14-4ee4-afe4-c1dc215154d7.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:179346
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 01769dfb-1010-41a2-a724-4231d89b0320.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:175439
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 437b4776-67c1-4c41-b75b-da2c9143e629.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:137936
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 9779c232-94f8-4ae6-8caa-7e20b5a58e5e.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:124220
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 0199f3a1-a591-4c01-bb0e-41fcd2fa618a.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:110411
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is cd6e5345-3a33-4755-82c2-81d7b2b735cc.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:965771
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 4210b62a-554d-4c8e-a56b-fb59d277f922.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:355239
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 2240d9c3-089c-4f18-b97f-89e272b1fe71.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:107321
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 7993de6d-cb86-40cd-a464-06f8d2d97038.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:137027
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is a60ad233-fdbc-40e9-94a5-b8b07a612828.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:172534
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is c382f779-4f27-49d6-b14a-0efc200a17b1.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:204016
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 5c52e27d-65b7-4465-97a1-4f6bee4c2b3f.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:106319
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is c6c290c1-6b59-46c5-9ba3-1bb11d161026.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:135225
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 81242a51-f56f-48c9-8439-324b203bd36f.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:871762
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 741e8015-6dde-4305-900d-11a132077c5f.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:660951
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:150423
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is aee25318-9904-45f4-9516-021ea6aa90cf.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:139233
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 3599a375-71c1-4f9e-8ac9-e551314880aa.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:180432
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is bb82e68d-d83e-4510-bfcb-8b636857d038.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:105216
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is accd07af-f1e0-4103-91ec-53767948fa61.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:672756
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is d8ddf58c-71b3-4647-bfeb-85104e2bda08.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:198451
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:168139
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 6e577cbd-b59e-4a00-9ea8-4ff24ca8e875.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:680957
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 31f15835-48a9-46e7-b414-bd16922b01ca.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:210617
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is f59e859f-df4b-4ad5-a1a1-f1b9bdbf412f.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:165032
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is c4aa292d-009a-4cbe-a5ed-cdf4a5192cdd.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:178849
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 711a9020-e66f-4d79-9f43-1a83a154139a.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:816653
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 9b4dbd01-f6cf-497c-89eb-66ecc2438e46.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:114419
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is c0d72ffe-aaf6-46a3-be99-a710ddfafb2b.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:107422
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is e426f282-1cf8-4dd4-8bb3-92a364f1bc16.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:871964
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is cc8749d1-2090-488d-9386-e41b78ab20a3.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:144226
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is d8807dad-9700-42ef-9a96-25912db9d5c6.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:857263
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 7543a8ba-577d-45e4-be9a-8a59979ae8b5.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:573249
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is ffa099c0-0620-407e-ab18-e9735a1812e5.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:113619
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 2a33c78b-c9b7-4aee-833c-ad5078d8020a.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:101410
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is e0b9b87d-c3cc-49ee-82d0-63c2fd651227.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:156334
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:137633
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:486759
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:861456
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 49d2c12f-dd06-4f28-97f5-5dc86a136656.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:151627
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is c2659fb9-8e5a-4d04-9aec-38c99c51911c.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:541943
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 31b72725-c95a-4274-ac73-32d7a353e6fd.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:422632
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: cleanup tmp file
+INFO: submitting job
+Job ID is 5f8fb3b3-4925-46f9-bec1-cd3bd11473c6.
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: user:859671
+INFO: setup temp dir
+INFO: copy data from HCP S3 to tmpdir:/var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+INFO: copy data from tmp to print-my-brain S3
+INFO: setup HCP S3
+INFO: setup print-my-brain S3 (uses environment variables for credentials)
+INFO: setup HCP S3
+INFO: setup HCP S3
