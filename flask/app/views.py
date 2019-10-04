@@ -10,11 +10,13 @@ from app import app
 from helpers import *
 
 @app.route('/')
-@app.route('/print-my-brain',methods=["GET","POST"])
 @app.route('/index',methods=["GET","POST"])
 def index():
     return render_template('master.html')
 
+@app.route('/print-my-brain')
+def print_my_brain():
+	return redirect(url_for('index'))
 
 @app.route('/get_file',methods=["GET","POST"])
 def get_file():
