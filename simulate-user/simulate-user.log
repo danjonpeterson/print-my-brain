@@ -1,0 +1,122 @@
+2019-10-04 14:18:56,805 - setup HCP S3
+2019-10-04 14:18:57,018 - INFO: setup print-my-brain S3
+2019-10-04 14:18:57,212 - user: 182840
+2019-10-04 14:18:57,213 - setup temp dir
+2019-10-04 14:18:57,215 - copy data from HCP S3 to tmpdir: /var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+2019-10-04 14:19:07,028 - copy data from tmp to print-my-brain S3
+2019-10-04 14:19:35,904 - cleanup tmp file
+2019-10-04 14:19:35,909 - submitting job
+2019-10-04 14:19:36,592 - for user 182840 Job ID is db3c3ccd-4775-470a-8cfc-04d4e38b5fa3.
+2019-10-04 14:50:08,581 - setup HCP S3
+2019-10-04 14:50:08,771 - INFO: setup print-my-brain S3
+2019-10-04 14:50:09,039 - user: 779370
+2019-10-04 14:50:09,039 - setup temp dir
+2019-10-04 14:50:09,043 - copy data from HCP S3 to tmpdir: /var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+2019-10-04 14:50:18,832 - copy data from tmp to print-my-brain S3
+2019-10-04 14:50:47,669 - cleanup tmp file
+2019-10-04 14:50:47,674 - submitting job
+2019-10-04 15:01:50,290 - setup HCP S3
+2019-10-04 15:01:50,407 - INFO: setup print-my-brain S3
+2019-10-04 15:01:51,022 - user: 586460
+2019-10-04 15:01:51,022 - setup temp dir
+2019-10-04 15:01:51,025 - copy data from HCP S3 to tmpdir: /var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+2019-10-04 15:02:01,038 - copy data from tmp to print-my-brain S3
+2019-10-04 15:02:23,574 - cleanup tmp file
+2019-10-04 15:02:23,581 - submitting job
+2019-10-04 15:02:23,831 - Unhandled exception
+Traceback (most recent call last):
+  File "./simulate-user.py", line 142, in <module>
+    logger.info(f'for user {args.user} Job ID is {jobId}')
+NameError: name 'jobId' is not defined
+2019-10-04 15:04:24,907 - setup HCP S3
+2019-10-04 15:04:25,038 - INFO: setup print-my-brain S3
+2019-10-04 15:04:25,231 - user: 103414
+2019-10-04 15:04:25,231 - setup temp dir
+2019-10-04 15:04:25,234 - copy data from HCP S3 to tmpdir: /var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+2019-10-04 15:04:30,300 - copy data from tmp to print-my-brain S3
+2019-10-04 15:04:43,861 - cleanup tmp file
+2019-10-04 15:04:43,871 - submitting job
+2019-10-04 15:04:44,082 - Unhandled exception
+Traceback (most recent call last):
+  File "./simulate-user.py", line 142, in <module>
+    logger.info(f'for user {args.user} Job ID is {response.jobId}')
+AttributeError: 'dict' object has no attribute 'jobId'
+2019-10-04 15:06:51,056 - setup HCP S3
+2019-10-04 15:06:51,195 - INFO: setup print-my-brain S3
+2019-10-04 15:06:51,383 - user: 162733
+2019-10-04 15:06:51,383 - setup temp dir
+2019-10-04 15:06:51,386 - copy data from HCP S3 to tmpdir: /var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+2019-10-04 15:06:57,614 - copy data from tmp to print-my-brain S3
+2019-10-04 15:07:17,431 - cleanup tmp file
+2019-10-04 15:07:17,437 - submitting job
+2019-10-04 15:07:17,676 - for user 162733 Job ID is 1fc4673a-4c5b-46cc-967b-e164b2ccfd9f
+2019-10-04 15:25:47,858 - setup HCP S3
+2019-10-04 15:25:48,076 - INFO: setup print-my-brain S3
+2019-10-04 15:25:48,495 - user: 761957
+2019-10-04 15:25:48,495 - setup temp dir
+2019-10-04 15:25:48,499 - copy data from HCP S3 to tmpdir: /var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+2019-10-04 15:25:49,110 - Unhandled exception
+Traceback (most recent call last):
+  File "./simulate-user.py", line 115, in <module>
+    f'{tmpdir}/hcp{args.user}.nii.gz')
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/boto3/s3/inject.py", line 172, in download_file
+    extra_args=ExtraArgs, callback=Callback)
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/boto3/s3/transfer.py", line 307, in download_file
+    future.result()
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/s3transfer/futures.py", line 106, in result
+    return self._coordinator.result()
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/s3transfer/futures.py", line 265, in result
+    raise self._exception
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/s3transfer/tasks.py", line 255, in _main
+    self._submit(transfer_future=transfer_future, **kwargs)
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/s3transfer/download.py", line 345, in _submit
+    **transfer_future.meta.call_args.extra_args
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/botocore/client.py", line 357, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/botocore/client.py", line 661, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (404) when calling the HeadObject operation: Not Found
+2019-10-04 15:25:59,524 - setup HCP S3
+2019-10-04 15:25:59,589 - INFO: setup print-my-brain S3
+2019-10-04 15:25:59,756 - user: 285345
+2019-10-04 15:25:59,757 - setup temp dir
+2019-10-04 15:25:59,759 - copy data from HCP S3 to tmpdir: /var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+2019-10-04 15:26:00,376 - Unhandled exception
+Traceback (most recent call last):
+  File "./simulate-user.py", line 115, in <module>
+    f'{tmpdir}/hcp{args.user}.nii.gz')
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/boto3/s3/inject.py", line 172, in download_file
+    extra_args=ExtraArgs, callback=Callback)
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/boto3/s3/transfer.py", line 307, in download_file
+    future.result()
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/s3transfer/futures.py", line 106, in result
+    return self._coordinator.result()
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/s3transfer/futures.py", line 265, in result
+    raise self._exception
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/s3transfer/tasks.py", line 255, in _main
+    self._submit(transfer_future=transfer_future, **kwargs)
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/s3transfer/download.py", line 345, in _submit
+    **transfer_future.meta.call_args.extra_args
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/botocore/client.py", line 357, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/Users/danjonpeterson/anaconda3/lib/python3.7/site-packages/botocore/client.py", line 661, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (404) when calling the HeadObject operation: Not Found
+2019-10-04 15:27:02,784 - setup HCP S3
+2019-10-04 15:27:02,881 - INFO: setup print-my-brain S3
+2019-10-04 15:27:03,070 - user: 901442
+2019-10-04 15:27:03,071 - setup temp dir
+2019-10-04 15:27:03,074 - copy data from HCP S3 to tmpdir: /var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+2019-10-04 15:27:08,341 - copy data from tmp to print-my-brain S3
+2019-10-04 15:27:25,899 - cleanup tmp file
+2019-10-04 15:27:25,903 - submitting job
+2019-10-04 15:27:26,214 - for user 901442 Job ID is 31aa7fe4-54a1-4c17-a3ca-a72e0782cd96
+2019-10-04 16:27:33,791 - setup HCP S3
+2019-10-04 16:27:34,008 - INFO: setup print-my-brain S3
+2019-10-04 16:27:34,273 - user: 118932
+2019-10-04 16:27:34,273 - setup temp dir
+2019-10-04 16:27:34,276 - copy data from HCP S3 to tmpdir: /var/folders/kz/b0hy2frx6zx4km5clplrg_5r0000gn/T
+2019-10-04 16:27:47,424 - copy data from tmp to print-my-brain S3
+2019-10-04 16:28:03,074 - cleanup tmp file
+2019-10-04 16:28:03,079 - submitting job
+2019-10-04 16:28:03,364 - for user 118932 Job ID is a29a4c93-2677-4ea8-a7b6-df475a55fce8
