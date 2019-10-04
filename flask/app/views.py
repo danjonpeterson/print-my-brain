@@ -10,6 +10,7 @@ from app import app
 from helpers import *
 
 @app.route('/')
+@app.route('/print-my-brain',methods=["GET","POST"])
 @app.route('/index',methods=["GET","POST"])
 def index():
     return render_template('master.html')
@@ -18,8 +19,6 @@ def index():
 @app.route('/get_file',methods=["GET","POST"])
 def get_file():
     username = request.args.get('username', '')
-
-    message=''
 
     if request.method == 'POST':
 	
@@ -36,10 +35,12 @@ def get_file():
 
 	    return redirect(url_for('submit_job', username=username, job_id=job_id))
 
+    example_brain_url=get_url_to_s3('input/example_brain.nii.gz')
+
     return render_template(
         'get_file.html',
         username=username,
-        message=message
+        example_brain_url=example_brain_url
     )
 
 @app.route('/submit_job',methods=["GET","POST"])
