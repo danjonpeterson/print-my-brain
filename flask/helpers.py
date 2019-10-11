@@ -1,5 +1,5 @@
-"""Helper functions for the print-my-brain frontend. These handle most of the
-   communication between AWS services and and web-app. Also some file checking
+""" Helper functions for the print-my-brain frontend. These handle most of the
+    communication between AWS services and and web-app. Also some file checking
 """
 
 import boto3 

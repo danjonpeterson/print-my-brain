@@ -1,5 +1,7 @@
 # print-my-brain: Get a 3D print of your brain!
 
+Note: This project is live [**HERE**](http://geminaltech.com/index)
+
 ## Project Idea
 
 **To make it simple for people to get a 3D print of their brain, if they have an MRI scan**
@@ -25,13 +27,13 @@ Eventually the users, but for now - Human Connectome Project data is available t
 
 ## Engineering Challenge
 
-Going from the MRI to the .stl is computationally expensive (8h on a typical workstation). I think it makes sense to launch a container separately for each brain. I can manage these containers with **kubernetes**.
+Going from the MRI to the .stl is computationally expensive (8h on a typical workstation). I think it makes sense to launch a container separately for each brain. I can manage these containers with **AWS Batch**.
 
-The user data, information on where to find the associated files, and basic process info will be stored in a **PostgreSQL** database.
+The user data, information on where to find the associated files, and basic process info will be stored in a **DynamoDB** database.
 
 Uploading and downloading large files (\~30MB MRI files, 16MB .stl files) through **Flask** with many concurrent users may be a challenge. It also may be neccessary to automatically delete the large files after a certain amount of time (a week?), but user info will be kept in the database.
 
-The MRI-to-stl process is mostly solved (albeit inefficiently and somewhat unreliably). In a previous hackathon project, I built a docker container to accomplish this (https://github.com/danjonpeterson/brain_printer). You could think of this project as scaling-up and making a public-facing interface to this process.
+The MRI-to-stl process is mostly solved (albeit inefficiently and somewhat unreliably). In a previous hackathon project, I built a docker container to accomplish this at a companion repository here: https://github.com/danjonpeterson/brain_printer . You could think of this project as scaling-up and making a public-facing interface to this process.
 
 For a "stress-test", I've used the publicly available MRI data from the Human Connectome Project, which is conveniently available to mount as an S3 bucket. I've tried it out with 50 brains simultaneously, and the Batch queue was able to work through them all within 24 hours.
 
