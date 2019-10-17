@@ -1,7 +1,7 @@
+# Deploys clould infrastructure for print-my-brain project
+#
 # working from https://github.com/jkahn117/aws-batch-image-processor as an example
 # https://medium.com/@joshua.a.kahn/understanding-aws-batch-a-brief-introduction-and-sample-project-5a3885dda0ce
-
-
 
 #
 # VARIABLES
@@ -137,11 +137,9 @@ resource "aws_batch_job_queue" "print-my-brain-job-queue" {
   ]
 }
 
-# Error: Error creating S3 bucket: BucketAlreadyOwnedByYou: Your previous request to create the named bucket succeeded and you already own it.
-# FIRST RUN:
-# terraform import aws_s3_bucket.bucket print-my-brain
-# BEFORE DESTROYING:
 # 
+# This will throw an error if the bucket already exists
+#
 
 resource "aws_s3_bucket" "print-my-brain" {
   bucket = "print-my-brain"
@@ -149,11 +147,9 @@ resource "aws_s3_bucket" "print-my-brain" {
 
 
 
-# since the table already exists
-# FIRST RUN:
-# terraform import aws_dynamodb_table.basic-dynamodb-table print-my-brain
-# BEFORE DESTROYING:
 # 
+# This will throw an error if the table already exists
+#
 
 resource "aws_dynamodb_table" "print-my-brain" {
   name = "print-my-brain"
@@ -189,7 +185,7 @@ resource "aws_iam_role" "job-role" {
 EOF
 }
 
-# need to add a s3 put?
+
 resource "aws_iam_policy" "job-policy" {
   name = "aws-batch-print-my-brain-job-policy"
   path = "/print-my-brain/"
@@ -259,82 +255,3 @@ resource "aws_batch_job_definition" "brain_printer" {
 CONTAINER_PROPERTIES
 }
 
-
-### lambda resource + iam
-#resource "aws_iam_role" "lambda-role" {
-#  name = "aws-batch-image-processor-function-role"
-#  path = "/BatchSample/"
-#  assume_role_policy = <<EOF
-#{
-#    "Version": "2012-10-17",
-#    "Statement":
-#    [
-#      {
-#          "Action": "sts:AssumeRole",
-#          "Effect": "Allow",
-#          "Principal": {
-#            "Service": "lambda.amazonaws.com"
-#          }
-#      }
-#    ]
-#}
-#EOF
-#}
-#
-#resource "aws_iam_policy" "lambda-policy" {
-#  name = "aws-batch-image-processor-function-policy"
-#  path = "/BatchSample/"
-#  policy = <<EOF
-#{
-#  "Version": "2012-10-17",
-#  "Statement": [
-#    {
-#      "Action": [
-#        "batch:SubmitJob"
-#      ],
-#      "Effect": "Allow",
-#      "Resource": "*"
-#    }
-#  ]
-#}
-#EOF
-#}
-#
-#resource "aws_iam_role_policy_attachment" "lambda-service" {
-#  role = "${aws_iam_role.lambda-role.name}"
-#  policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
-#}
-#
-#resource "aws_iam_role_policy_attachment" "lambda-policy" {
-#  role = "${aws_iam_role.lambda-role.name}"
-#  policy_arn = "${aws_iam_policy.lambda-policy.arn}"
-#}
-#
-#resource "aws_lambda_function" "submit-job-function" {
-#  function_name = "aws-batch-image-processor-function"
-#  filename = "lambda_function.zip"
-#  role = "${aws_iam_role.lambda-role.arn}"
-#  handler = "index.handler"
-#  source_code_hash = "${data.archive_file.lambda_zip.output_base64sha256}"
-#  runtime = "nodejs8.10"
-#  depends_on = [ "aws_iam_role_policy_attachment.lambda-policy" ]
-#  environment = {
-#    variables = {
-#      JOB_DEFINITION = "${aws_batch_job_definition.image-processor-job.arn}"
-#      JOB_QUEUE = "${aws_batch_job_queue.image-processor.arn}"
-#      IMAGES_BUCKET = "${aws_s3_bucket.image-bucket.id}"
-#      IMAGES_TABLE = "${aws_dynamodb_table.user-table.id}"
-#    }
-#  }
-#}
-#
-#
-##
-## OUTPUTS
-##
-#
-
-#
-#output "image_bucket" {
-#  value = "${aws_s3_bucket.image-bucket.id}"
-#}
