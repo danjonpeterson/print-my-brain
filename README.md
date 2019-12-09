@@ -2,6 +2,8 @@
 
 Note: This project is live [**HERE**](http://geminaltech.com/index)
 
+Demo video [**HERE**](https://youtu.be/UtsCIF-TpeA)
+
 ## Project Idea
 
 **To make it simple for people to get a 3D print of their brain, if they have an MRI scan**
