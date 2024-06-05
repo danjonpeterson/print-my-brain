@@ -1,7 +1,5 @@
 # print-my-brain: Get a 3D print of your brain!
 
-Note: This project is live [**HERE**](http://geminaltech.com/index)
-
 Demo video [**HERE**](https://youtu.be/UtsCIF-TpeA)
 
 ## Project Idea
